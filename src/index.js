@@ -33,8 +33,7 @@ class App {
             })
             .catch(error => {
                 Notify.warning(error.message);
-            })
-            .finally(() => { });
+            });
     }
 
     cleanAreaMarkup() {
